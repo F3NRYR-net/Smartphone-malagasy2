@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petit budget</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📱 Smartphones à petit budget</h1>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <h3>Redmi A2</h3>
+        <p>Usage basique</p>
+        <strong>350 000 Ar</strong>
+        <button onclick="acheterProduit()">Voir l’offre</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/150">
+        <h3>Samsung A04</h3>
+        <p>Bonne autonomie</p>
+        <strong>450 000 Ar</strong>
+        <button onclick="acheterProduit()">Voir l’offre</button>
+    </div>
+
+    <h2>Comparer</h2>
+
+    <select id="phone1">
+        <option>Redmi A2</option>
+        <option>Samsung A04</option>
+    </select>
+
+    <select id="phone2">
+        <option>Samsung A04</option>
+        <option>Redmi A2</option>
+    </select>
+
+    <button onclick="comparer()">Comparer</button>
+
+    <p id="resultat"></p>
+
+</div>
+
+<a href="https://wa.me/261XXXXXXXXX" class="whatsapp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
